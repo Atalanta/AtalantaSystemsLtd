@@ -1,25 +1,35 @@
 body 
    {
-   font:14px verdana, arial, helvetica, sans-serif;
-   color:#222;
+   font:14px helvetica, verdana, arial, sans-serif;
+   color:#262631;
    background-color:white;
  }
 
 h1
    {
-   color:#333;
-   font:2.7em/1 Georgia, "Times New Roman", Times, serif;
+   color:#5D3E6A;
+   font:2.7em/1 Courier;
+   font-family: Courier;
    font-weight:500;
    margin:.5em 0 1em;
    text-align: center;
  }
+	
 h2
    {
-   color:#333;
-   font:1em/1 Georgia, "Times New Roman", Times, serif;
+   color:#5D3E6A;
+   font:1.4em/1 Courier; 
+   font-family: Courier;
    font-weight:600;
    margin:2em 0 .5em;
  }
+
+
+navlist
+	{
+		font: Courier;
+}
+
 p 
    {
    line-height:1.8;
@@ -40,7 +50,7 @@ a
  }
 a:link
    {  
-    color:#60c;
+    color:#5D3E6A;
    }
 a:visited
    {
