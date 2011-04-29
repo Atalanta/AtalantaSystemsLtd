@@ -1,0 +1,162 @@
+body 
+   {
+   font:11px verdana, arial, helvetica, sans-serif;
+   color:#222;
+   background-color:white;
+ }
+h1
+   {
+   color:#333;
+   font:1.4em/1 Georgia, "Times New Roman", Times, serif;
+   font-weight:700;
+   margin:2em 0 .5em;
+ }
+h2
+   {
+   color:#333;
+   font:1em/1 Georgia, "Times New Roman", Times, serif;
+   font-weight:600;
+   margin:2em 0 .5em;
+ }
+p 
+   {
+   line-height:1.8;
+   margin:0 0 1em;
+       text-align: justify;
+ }
+ol, ul
+   {
+   margin-top:0;
+     margin-bottom:1em;
+   line-height:1.8;
+ }
+a
+   {
+   color:#333;
+   text-decoration:none;
+   font-weight:600;
+ }
+a:link
+   {  
+    color:#60c;
+   }
+a:visited
+   {
+       color:#006;
+   }
+a:hover
+   {
+     color:#306;
+   }
+body
+   {
+   margin:50px 0px; padding:0px;
+   text-align:center;
+ }
+img
+   { 
+     border: 0px;
+   margin:0 0 1em;
+   }
+acronym
+   {
+     cursor: help;
+   }
+   img.wrap-left {
+    float:left;
+    margin: 10px 10px 10px 0;
+   }
+   img.wrap-right {
+    float: right;
+    margin: 10px 0 10px 10px;
+   }
+.clear {
+    clear: both;
+}
+#navcontainer {
+    clear:both; 
+    float:left; 
+    width:100%; 
+    margin-bottom: 15px;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    background:#eee;
+}
+#navcontainer ul {
+  padding:0; 
+  margin:0 auto; 
+  list-style-type:none;
+  float:left;
+  position:relative; 
+  left:50%;
+}
+#navcontainer li.first {
+    border-left: 1px solid #666;
+}
+#navcontainer li {
+    float:left; 
+    position:relative; 
+    right:50%;
+    border-right: 1px solid #666;
+}
+#navcontainer a {
+    background:#eee;
+    width:auto;
+    display:block;
+    padding: 2px 15px;
+    border: none;
+    color:#666;
+}
+a#current,#navcontainer a:hover {
+    color:#000;
+}
+#navcontainer li:hover ul, #navcontainer li.over ul {
+    display:block;
+}
+
+#navcontainer ul ul {
+    display:none;
+    position:absolute;
+    margin: 0;
+    top: 24px;
+    left: 135px;
+}
+#navcontainer ul ul li {
+    border-bottom: 1px solid #666;
+    border-left: 1px solid #666;
+    clear: left;
+}
+#navcontainer ul ul a {
+    width: 240px;
+}
+#content
+   {
+   width:580px;
+   margin:0px auto;
+   text-align:left;
+   padding:1.3em;
+   border:1px solid #666;
+       margin-bottom: 2.7em;
+   background-color:#eee;
+   clear: both;
+ }
+#description
+   {
+       width:460px;
+       margin:0px auto;
+       text-align:left;
+       padding:0.6em;
+       border:1px dotted #888;
+       margin-bottom: 0.5em;
+       background-color:#f3f3f3;
+     }
+
+#address ul
+   {
+     list-style-type: none;
+     margin-top: 4px;
+   }
+#footer
+   {
+   text-align:center;
+   }

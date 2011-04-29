@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+    <meta name="author" content="Stephen Nelson-Smith" />
+    <meta name="description" content="Simple design for a simple site." />
+    <meta name="robots" content="noarchive" />
+
+    <title>Atalanta Systems Ltd</title>    
+    <style type="text/css" title="Work, a simple style sheet.">
+      @import "work.css";
+    </style>
+    <!--[if lt IE 6]>
+        <script type="text/javascript" src="menu.js"></script>
+    <![endif]-->
+  
+</head>
+
+<body>
+
+    <a href="/"><img src="AS2.png" /></a>
+     <!-- The navigation menu on top -->
+    <div id="navcontainer">
+        <ul id="navlist">
+            <li class="first"><a href="index.html" id="current">About Atalanta Systems</a></li>
+            <li>
+                <a href="services.html">Services</a>
+                <ul>
+                    <li><a href="systemadministration.html">System Administration</a></li>
+                    <li><a href="designandarchitecture.html">Design & Architecture</a></li>
+                    <li><a href="automation.html">System Deployment & Automation</a></li>
+                    <li><a href="webmarketing.html">Web Marketing</a></li>
+                    <li><a href="softwaredev.html">Software Development</a></li>
+                    <li><a href="hosting.html">Hosting</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="workforus.html">Work for Atalanta Systems</a></li>
+        </ul>
+    <div class="clear"></div>
+    </div>
+
+    <!-- The actual content of the page -->
+    <div id="content">
+
+        <h1>What Atalanta Systems does</h1>
+        <img src="83.jpg" alt="1000 Lakeside" width="350" height="234" class="wrap-right"/>
+      <p>Atalanta Systems is a specialist IT solutions provider, specialising in using open source technology to streamline corporate IT 		  	infrastructure.</p>
+
+	<p>Having built a network of bright and experienced associates with skills spanning UNIX, Linux, Windows, networking, security, web
+	development and web design, we create bespoke teams of specialists, providing a multi-disciplinary approach, to deliver a holistic solution 
+	to any problem you throw at us. </p>
+
+	<p>Atalanta Systems uses agile methodologies throughout - we'll agree the simplest, smallest outcome that will bring the 		greatest business benefit to your company, and work on that first - keeping your costs down, and making sure we're always adding value.</p>
+
+	<p>We believe in using technology and talent to add value to your business - by making your systems faster and more reliable, and by allowing 		your technical staff to focus on work that really matters and that moves your business forward.</p>
+
+	<p>We sit comfortably on the borders between business, management and technology.  Coming from a professional, corporate background, we understand customers, their business needs and process, their client-facing requirements, as well as the details of their technical infrastructure - a rare-breed combination of technical and business acumen.
+
+	<p>Put simply - we will work with you to streamline your technology, to bring you tangible business benefits.</p>
+      
+	<p>Find out more about <a href="services.html">our services</a>.</p>	
+	
+    </div>
+
+    <!-- The footer information -->
+    <div id="footer">
+      <br />Last modified on 10th September 2008  |  &copy; 2008 Atalanta Systems Ltd 
+    </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5522815-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+
+</html>
